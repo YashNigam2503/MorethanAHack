@@ -1,0 +1,19 @@
+# Match data is licensed for the competition only and must never be committed (RULES.md).
+data/
+
+# Every generated file is a restricted-data derivative: caches, audits, predictions, reports.
+local_cache/
+*.npz
+*.mp4
+
+# Submission files are uploaded through the form, not committed.
+*.csv
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.idea/
